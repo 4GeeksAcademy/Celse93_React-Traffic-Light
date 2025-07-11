@@ -5,38 +5,19 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.red {
+  filter: drop-shadow(0 0 2em #f83011);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.yellow {
+  filter: drop-shadow(0 0 2em #f8e80b);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.green {
+  filter: drop-shadow(0 0 2em #aff806aa);
 }
 
-.card {
-  padding: 2em;
+.purple {
+  filter: drop-shadow(0 0 2em #b806f8de);
 }
 
-.read-the-docs {
-  color: #888;
-}
